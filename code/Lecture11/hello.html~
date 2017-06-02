@@ -1,0 +1,10 @@
+<html>
+<<head>
+<body>
+<form action="/cgi-bin/helloworld.cgi">
+Your name:<input name="name" size="20">
+<input type="submit" value="Submit!">
+</form>
+</body>
+</html>
+
