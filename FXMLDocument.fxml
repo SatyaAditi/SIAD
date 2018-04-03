@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="313.0" prefWidth="201.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="calculator.FXMLDocumentController">
+    <children>
+        <Button layoutX="102.0" layoutY="261.0" onAction="#handleButtonEqualToAction" prefHeight="34.0" prefWidth="42.0" text="=" />
+        <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+      <TextField fx:id="Display" alignment="CENTER" editable="false" layoutX="13.0" layoutY="45.0" prefHeight="62.0" prefWidth="168.0" />
+      <Button layoutX="14.0" layoutY="118.0" mnemonicParsing="false" onAction="#handleButtonClearAction" prefHeight="34.0" prefWidth="83.0" text="C" />
+      <Button alignment="CENTER" layoutX="99.0" layoutY="118.0" mnemonicParsing="false" onAction="#handleButtonToggleAction" prefHeight="34.0" prefWidth="42.0" text="+/-" />
+      <Button layoutX="143.0" layoutY="118.0" mnemonicParsing="false" onAction="#handleButtonOperationAction" prefHeight="34.0" prefWidth="42.0" text="\%" />
+      <Button layoutX="13.0" layoutY="154.0" mnemonicParsing="false" onAction="#handleButtonNumberAction" prefHeight="34.0" prefWidth="42.0" text="7" />
+      <Button layoutX="56.0" layoutY="154.0" mnemonicParsing="false" onAction="#handleButtonNumberAction" prefHeight="34.0" prefWidth="42.0" text="8" />
+      <Button layoutX="100.0" layoutY="154.0" mnemonicParsing="false" onAction="#handleButtonNumberAction" prefHeight="34.0" prefWidth="42.0" text="9" />
+      <Button layoutX="144.0" layoutY="154.0" mnemonicParsing="false" onAction="#handleButtonOperationAction" prefHeight="34.0" prefWidth="42.0" text="/" />
+      <Button layoutX="14.0" layoutY="190.0" mnemonicParsing="false" onAction="#handleButtonNumberAction" prefHeight="34.0" prefWidth="42.0" text="4" />
+      <Button layoutX="57.0" layoutY="190.0" mnemonicParsing="false" onAction="#handleButtonNumberAction" prefHeight="34.0" prefWidth="42.0" text="5" />
+      <Button layoutX="101.0" layoutY="190.0" mnemonicParsing="false" onAction="#handleButtonNumberAction" prefHeight="34.0" prefWidth="42.0" text="6" />
+      <Button layoutX="145.0" layoutY="190.0" mnemonicParsing="false" onAction="#handleButtonOperationAction" prefHeight="34.0" prefWidth="42.0" text="X" />
+      <Button layoutX="14.0" layoutY="225.0" mnemonicParsing="false" onAction="#handleButtonNumberAction" prefHeight="34.0" prefWidth="42.0" text="1" />
+      <Button layoutX="58.0" layoutY="225.0" mnemonicParsing="false" onAction="#handleButtonNumberAction" prefHeight="34.0" prefWidth="42.0" text="2" />
+      <Button layoutX="102.0" layoutY="225.0" mnemonicParsing="false" onAction="#handleButtonNumberAction" prefHeight="34.0" prefWidth="42.0" text="3" />
+      <Button layoutX="146.0" layoutY="225.0" mnemonicParsing="false" onAction="#handleButtonOperationAction" prefHeight="34.0" prefWidth="42.0" text="-" />
+      <Button layoutX="14.0" layoutY="261.0" mnemonicParsing="false" onAction="#handleButtonNumberAction" prefHeight="34.0" prefWidth="42.0" text="0" />
+      <Button layoutX="58.0" layoutY="261.0" mnemonicParsing="false" onAction="#handleButtonNumberAction" prefHeight="34.0" prefWidth="42.0" text="." />
+      <Button layoutX="146.0" layoutY="261.0" mnemonicParsing="false" onAction="#handleButtonOperationAction" prefHeight="34.0" prefWidth="42.0" text="+" />
+    </children>
+</AnchorPane>
