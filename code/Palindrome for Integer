@@ -1,0 +1,28 @@
+
+public class Palindrome {
+    public boolean isPalindrome(int x) {
+        int y=0,temp=0;
+        temp=x;
+         while(x!=0){
+              y=y*10+x%10;
+              x=x/10;
+          }
+        if(Math.abs(temp)==y)
+        {
+            System.out.println("true");
+            return true;
+        }
+        else
+        {
+            System.out.println("false");
+            return false;
+        }
+    }
+    
+    public static void main(String args[])
+    {
+        Palindrome p= new Palindrome();
+        p.isPalindrome(121);
+        p.isPalindrome(-121);
+    }
+}
